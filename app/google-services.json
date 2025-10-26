@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48494065387",
+    "project_id": "connectgame-b0bc2",
+    "storage_bucket": "connectgame-b0bc2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48494065387:android:af356636fd2abdb225f0ae",
+        "android_client_info": {
+          "package_name": "com.example.connectgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKaNVp7no3iJ2nsRpFOTr2TBR2n9bN2Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

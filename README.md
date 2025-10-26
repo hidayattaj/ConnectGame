@@ -10,7 +10,7 @@ Authentication
         Users sign in using Firebase signInWithEmailAndPassword.
         Option to create a new account via the registration screen.
 
-    Registration Screen (RegistrationActivity):
+Registration Screen (RegistrationActivity):
         Users register with email and password using Firebase createUserWithEmailAndPassword.
         Confirmation message displayed upon successful account creation.
 
@@ -42,21 +42,21 @@ Log Out
 
 Play Online (LobbyActivity & OnlineGameplayActivity)
 
-    LobbyActivity
+LobbyActivity
     	Connects players via Firebase Realtime Database.
     	If no active game exists, a new session is created.
     	If a session is found, the user joins and the game status updates to "match ready".
     	Polling mechanism checks for player availability every 3 seconds.
     	Once both players are connected, the Start button launches the game.
 
-    OnlineGameplayActivity
+OnlineGameplayActivity
     	Real-time multiplayer gameplay using Firebase listeners.
 
-    	Player roles:
-        	First user is Player 1
-        	Second user is Player 2
+Player roles:
+        First user is Player 1
+        Second user is Player 2
 
-    	Game logic:
+Game logic:
         	Each move updates the Firebase database (player1Move, player2Move, turn, winner).
         	Listener checks whose turn it is and updates the grid accordingly.
         	Grid is a 2D array with visual updates using redstar (Player 1) and bluestar (Player 2).

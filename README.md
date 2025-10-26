@@ -61,8 +61,8 @@ Game logic:
         	Listener checks whose turn it is and updates the grid accordingly.
         	Grid is a 2D array with visual updates using redstar (Player 1) and bluestar (Player 2).
 
-    	Game outcomes:
-        	Win, draw, or opponent quit triggers appropriate dialogs.
+Game outcomes:
+        Win, draw, or opponent quit triggers appropriate dialogs.
 
-    	Exit options:
-        	New Game and Quit Game detach listeners and return to the main menu.
+Exit options:
+        New Game and Quit Game detach listeners and return to the main menu.

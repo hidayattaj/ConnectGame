@@ -1,3 +1,10 @@
+![Login](login.png)
+![register](register.png)
+![main menu](mainmenu.png)
+![online lobby](onlinelobby.png)
+![gameplay1](gameplay1.png)
+![gameplay2](gameplay2.png)
+
 Connect3 is android java multiplayer game that integrates Firebase Authentication and Realtime Database to deliver both local and online gameplay experience. The game is built around a 2D grid where players drop tokens into columns, aiming to match three in a row—horizontally, vertically, or diagonally—to win.
 
 Technologies Used
